@@ -1,19 +1,17 @@
 import { useState } from 'react'
+import Navbar from './Components/Navbar.jsx'
 import './App.css'
 
-let name="Jyoti";
+let name="Purnima";
 function App() {
   
   return (
-        <>
-        <nav>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </nav>
-        <h1>Hello {name}</h1>
-        </>
-  )
-}
+      <>
+        <Navbar title="TextutilsP" about="AboutText"/>
+      </>
+  );
+          }
+  
+
 
 export default App
